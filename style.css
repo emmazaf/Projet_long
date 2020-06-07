@@ -1,0 +1,231 @@
+@font-face {
+    font-family: "Rubik";
+    
+	src: url('Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Rubikbold";
+    
+	src: url('Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Rubikmedium";
+    
+	src: url('Rubik-Medium.ttf');
+}
+
+
+h1{
+    font-family: 'Rubikbold', serif ;
+    margin-left:30px ;
+    margin-top:60px ;
+    color:#515C6F ;
+}
+
+.mdp{
+    font-family: 'Rubikmedium' ;
+    color: #515C6F;
+}
+
+.pseudo{
+    font-family: 'Rubikmedium' ;
+    color: #515C6F;
+}
+
+.Lepalapin{
+    font-family: 'Rubik' ;
+}
+
+.connexion{
+    font-family: 'Rubik' ;
+}
+
+.mail{
+    font-family: 'Rubik' ;
+    /*font-style: Regular;*/
+}
+
+.EMAIL{
+    font-family: 'Rubikmedium' ;
+    color: #515C6F;
+}
+
+.conteneur{
+background-color: #F5F6F8;
+height: 812px;
+width: 375px;
+
+
+}
+
+.contenu{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+
+}
+
+.champs1{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.champs2{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    
+}
+
+.champs3{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+
+.connecter{
+    
+ margin-top: 70px;   
+ 
+
+
+}
+
+.connexion{
+    font-family: 'Rubikbold' ;
+    z-index:1;
+    bottom:40px;
+    left: 100px;
+    position: relative;
+    color: #FFFF;
+    
+}
+
+#ellipse{
+    width: 300px;
+    height: 46px;
+    border-radius: 30px;
+    background: #FF6969;
+    position: absolute;
+    z-index: 0;
+    -webkit-box-shadow: 0 10px 16px -6px #777;
+    -moz-box-shadow: 0 10px 16px -6px #777;
+         box-shadow: 0 10px 16px -6px #777;
+
+
+    
+}
+
+#ellipse2{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #ffffff;
+    position: relative;
+   
+    margin-left: 255px;
+    z-index: 1;
+    
+    top:3px;
+}
+
+
+.flecherouge{
+    position: relative;
+    left:265px;
+    bottom:80px;
+    z-index: 1;
+}
+
+
+.icone_mail{
+    position: relative;
+    top:35px;
+    left:20px;
+    
+
+}
+
+.icone_util{
+    position: relative;
+    top:35px;
+    left:20px;
+}
+
+.icone_cadenas{
+    position: relative;
+    top:35px;
+    left:20px;
+}
+
+.blanc1{
+background-color: #ffffff;
+border-radius: 20px;
+margin-top: 10px; 
+width:320px;   
+height :100px;
+-webkit-box-shadow: 0 10px 16px -6px #777;
+-moz-box-shadow: 0 10px 16px -6px #777;
+     box-shadow: 0 10px 16px -6px #777;
+}
+
+.champs1{
+margin-left:30px ;
+
+}
+
+
+.block{
+margin-top: 130px;
+
+}
+
+.blanc2{
+    background-color: #ffffff;
+    margin-top: 10px;    
+    border-radius: 20px;
+    width:320px;   
+    height :100px;
+    -webkit-box-shadow: 0 10px 16px -6px #777;
+    -moz-box-shadow: 0 10px 16px -6px #777;
+         box-shadow: 0 10px 16px -6px #777;
+}
+
+
+.champs2{
+    margin-left:30px ;}
+
+    .blanc3{
+        background-color: #ffffff;
+        margin-top: 10px;    
+        border-radius: 20px; 
+        width:320px;   
+        height :100px;
+
+        -webkit-box-shadow: 0 10px 16px -6px #777;
+        -moz-box-shadow: 0 10px 16px -6px #777;
+             box-shadow: 0 10px 16px -6px #777;
+        }
+.champs3{
+     margin-left:30px ; 
+    }
+
+.texte1{
+    margin-left:60px;
+    position :relative;
+    bottom:20px;
+}
+.texte2{
+    margin-left:60px;
+    position :relative;
+    bottom:20px;
+}
+.texte3{
+    margin-left:60px;
+    position :relative;
+    bottom:20px;
+}
