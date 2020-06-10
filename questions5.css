@@ -1,0 +1,195 @@
+@font-face {
+    font-family: "Rubik";
+    
+	src: url('Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Rubikbold";
+    
+	src: url('Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Rubikmedium";
+    
+	src: url('Rubik-Medium.ttf');
+}
+
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.conteneur{
+    background-image: url('velooo.png');
+    background-size: 310%;
+
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 812px;
+    width: 375px;
+}
+.ellipse{
+    width: 375px;
+    height: 85px;
+    border-radius: 30px;
+    background: #FF6969;
+    position: absolute;
+    z-index: 0;
+
+
+
+    
+}
+
+.ellipse2{
+    width: 395px;
+    height: 85px;
+    left:30px;
+    background: #FF6969;
+    position: absolute;
+    z-index: 0;
+    -webkit-box-shadow: 0 10px 16px -6px #777;
+    -moz-box-shadow: 0 10px 16px -6px #777;
+         box-shadow: 0 10px 16px -6px #777;
+
+
+    
+}
+
+.fleche_retour{
+    position:relative;
+    bottom: 50px;
+    left:20px;
+
+}
+h1{
+    color:#fff;
+    font-family: 'Rubikbold', serif ;
+    margin-left:65px ;
+    margin-top:30px ;
+
+
+}
+
+
+
+
+.question{
+
+    position: relative;
+    margin-top:150px;
+
+}
+
+.carre_blanc{
+    background-color:#fff;
+border-radius: 10px;
+width:274px;
+height:360px;
+margin-left:50px;
+position:absolute;
+-webkit-box-shadow: 0 10px 16px -6px #777;
+    -moz-box-shadow: 0 10px 16px -6px #777;
+         box-shadow: 0 10px 16px -6px #777;
+         Z-index:0;
+}
+
+h2{
+    font-family: 'Rubikmedium' ;
+    /*color: #515C6F;*/
+    color:#FFFFFF;
+    margin-left:50px;
+}
+
+.details{
+    font-family: "Rubik";
+margin-left:30px;
+width: 224px;
+height:82px;
+
+}
+
+.bon_courage{
+    font-family: "Rubik";
+    margin-left:56px;
+    color:#FF6969;
+    font-size: 13px;
+
+}
+
+.velo{
+    margin-left:20px;
+
+}
+
+
+#ellipse_rouge{
+
+    width:32px;
+    height:32px;
+    background: #FF6969;
+    border-radius:24px;
+    left:128px;
+    top:5px;
+    position: relative;
+}
+
+.suivante{
+    font-family: "Rubikmedium";
+    position: relative;
+    left:35px;
+    top:42px;
+    Z-index:1;
+    font-size:13px;
+}
+
+
+
+
+
+  
+
+  .menu_barre{
+
+    margin-bottom:10px;
+    background-color:#FFFFFF;
+    height:30px; 
+  
+    
+  }
+
+
+  .champ2{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top:580px;
+    position:relative;
+  }
+
+.maison{
+    margin-left:10px;
+    position: relative;
+
+}
+.bonhomme{
+    margin-left:5px;
+    position: relative;
+
+}
+.livre{
+    margin-left:10px;
+    position: relative;
+ 
+}
+  .footer{
+    font-family: "Rubik";
+    font-size: 12px;
+    margin:0;
+    padding:0;
+  }
+
+
