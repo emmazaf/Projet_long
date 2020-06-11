@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "Rubik";
+    
+	src: url('Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Rubikbold";
+    
+	src: url('Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Rubikmedium";
+    
+	src: url('Rubik-Medium.ttf');
+}
+
+@font-face {
+    font-family: "Rubiklight";
+
+    src: url('Rubik-Light.ttf');
+ }
+
+.conteneur{
+    height: 812px;
+    width: 375px;
+    margin: auto;
+    /*margin-top: 30px;*/
+    border: solid black 2px;*/
+}
+
+.contenu{
+    background-image: url(solo.png);
+    background-position: bottom -30px right -60px;
+    
+    width: 100%;
+    height: 100%;
+    background-size: 150%;
+    justify-content: center;
+    display: block;
+}
+
+
+.header{
+    background-color: #FF6969;
+    height: 85px;
+    border-bottom-left-radius: 50px;
+    /*border: solid yellow 1px;*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+h1{
+    color: #FFFF;
+    font-family: 'Rubikbold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 25px;
+    /*margin-right: 70px;
+    margin-bottom: 50px;*/
+    /*border: solid blue 1px;*/
+}
+
+.flèche_blanche{
+    width: 15px;
+    color: white;
+    margin: auto;
+    margin-left: 50px;
+}
+
+.block{
+    /*border: solid green 1px;*/
+    margin-top: 170px;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+    font-family: 'Rubikmedium', sans-serif;
+    color: #FF6969;
+}
+
+H4{
+    font-family: 'Rubiklight', sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 30px;
+}
+
+.bouton{
+    background-color: white;
+    width: 180px;
+    height: 40px;
+    border-radius: 24px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: flex;
+}
+
+.texte{
+    color: #727C8E;
+    font-family: 'Rubikmedium', sans-serif;
+    margin: auto;
+    font-size: 13px;
+    margin-right: 0;
+}
+
+.bouton_flèche{
+    /*background-color: #FF6969;*/
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin :auto;
+    margin-right: 6px;
+}
+
+.footer{
+    height: 49px;
+    width: 375px;
+    background-color: white;
+    /*border: solid blue 1px;*/
+    margin-top: 217px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    height: 20px;
+    margin-top: 5px;
+}
+
+.accueil{
+    /*border: solid blue 1Px;*/
+    text-align: center;
+    /*margin: 6px;*/
+    margin-left: 60px;
+}
+
+.profil{
+    /*border: solid blue 1Px;*/
+    text-align: center;
+}
+
+.journal{
+    /*border: solid blue 1Px;*/
+    text-align: center;
+    margin-right: 60px;
+}
+
+.texte_gris{
+    color: #727C8E;
+    font-family: 'Rubikmedium', sans-serif;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+.texte_rose{
+    color: #FF6969;
+    font-family: 'Rubikmedium', sans-serif;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
